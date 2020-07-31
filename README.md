@@ -40,6 +40,6 @@ npm run test
 npm run lint
 ```
 
-### Components Overview
+### Components Tree
 
 ![components dependecy tree](DiagramsAndScreenshots/Clock%20App%20Components.png)
