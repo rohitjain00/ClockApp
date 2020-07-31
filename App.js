@@ -1,8 +1,8 @@
 import React from 'react';
-import {ClockComponent} from './components/ClockComponent';
+import {ClockController} from "./components/ClockController";
 
 export default function App() {
   return (
-    <ClockComponent></ClockComponent>
+    <ClockController></ClockController>
   );
 }
