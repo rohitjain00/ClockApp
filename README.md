@@ -1,6 +1,8 @@
  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Maintainability](https://api.codeclimate.com/v1/badges/6b80091f5dacf946cd1e/maintainability)](https://codeclimate.com/github/rohitjain00/ClockApp/maintainability)
 
+[![Maintainability](https://api.codeclimate.com/v1/badges/6b80091f5dacf946cd1e/maintainability)](https://codeclimate.com/github/rohitjain00/ClockApp/maintainability)
+[![CodeFactor](https://www.codefactor.io/repository/github/rohitjain00/clockapp/badge)](https://www.codefactor.io/repository/github/rohitjain00/clockapp)
+[![codebeat badge](https://codebeat.co/badges/9d465883-b37d-4e43-bd97-6e56bddf99fe)](https://codebeat.co/projects/github-com-rohitjain00-clockapp-master)
 # Clock App
 A simple clock app that can show users their current date & time.
 
