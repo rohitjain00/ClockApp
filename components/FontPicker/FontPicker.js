@@ -1,5 +1,6 @@
 import React from 'react';
-import {StyleSheet, Text, View, Picker} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
+import {Picker} from '@react-native-community/picker';
 import PropTypes from 'prop-types';
 
 export function FontPicker(props) {
