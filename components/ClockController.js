@@ -24,7 +24,8 @@ export function ClockController() {
     'monospace',
   ];
   const [dateTime, setDateTime] = useState(getDateTime());
-  const [dateTimeOffset, setDateTimeOffset] = useState('5.5');
+  const utcOffsetOfLocalTime = -1 * getDateTime().getTimezoneOffset() / 60;
+  const [dateTimeOffset, setDateTimeOffset] = useState(utcOffsetOfLocalTime);
 
   const [dateFontSize, setDateFontSize] = useState(40);
   const [timeFontSize, setTimeFontSize] = useState(20);
