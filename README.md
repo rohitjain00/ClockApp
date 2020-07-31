@@ -1,7 +1,12 @@
+ [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+[![Maintainability](https://api.codeclimate.com/v1/badges/6b80091f5dacf946cd1e/maintainability)](https://codeclimate.com/github/rohitjain00/ClockApp/maintainability)
+
 # Clock App
 A simple clock app that can show users their current date & time.
 
 This app is based on [Expo CLI Quickstart](https://reactnative.dev/docs/environment-setup)
+
+Expo Url : https://expo.io/@rohitjain00/ClockApp
 
 | ![Sketch of the App](DiagramsAndScreenshots/Screenshot_1.png) | ![Sketch of the App](DiagramsAndScreenshots/Screenshot_2.png) | ![Sketch of the App](DiagramsAndScreenshots/Screenshot_3.png) |
 |----------------------------------------------------------------------|----------------------------------------------------------------------|----------------------------------------------------------------------|
