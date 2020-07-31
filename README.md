@@ -17,7 +17,7 @@ This app is based on [Expo CLI Quickstart](https://reactnative.dev/docs/environm
 
 ## Sketch of the App
 
-![Sketch of the App](DiagramsAndScreenshots/Clock App Component Design Diagram.png)
+![Sketch of the App](DiagramsAndScreenshots/Clock%20App%20Component%20Design%20Diagram.png)
 
 ### Testing Instruction
 
