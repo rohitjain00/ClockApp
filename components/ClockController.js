@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {StyleSheet, View, ScrollView, SafeAreaView} from 'react-native';
-import {ClockDisplay} from './ClockDisplay';
+import {ClockDisplay} from './ClockDisplay/ClockDisplay';
 import {HighLowButton} from './HighLowButton/HighLowButton';
 import {InputFormat} from './InputFormat/InputFormat';
 import {FontPicker} from './FontPicker/FontPicker';
@@ -65,8 +65,8 @@ export function ClockController() {
           </View>
           <View style={styles.controller}>
             <View style={styles.flexRowStyle}>
-              <HighLowButton text={'Change Date Size'} value={dateFontSize} onChange={setDateFontSize}></HighLowButton>
-              <HighLowButton text={'Change Time Size'} value={timeFontSize} onChange={setTimeFontSize}></HighLowButton>
+              <HighLowButton text={'Change Date Size'} value={dateFontSize} onChange={setDateFontSize} />
+              <HighLowButton text={'Change Time Size'} value={timeFontSize} onChange={setTimeFontSize} />
             </View>
             <View style={styles.flexRowStyle}>
               <View>

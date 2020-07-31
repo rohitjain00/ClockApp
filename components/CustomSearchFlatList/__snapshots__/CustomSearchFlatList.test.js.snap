@@ -1,0 +1,1803 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomSearchFlatList Component Custom Search Flat List Snapshot Validation 1`] = `
+<View
+  style={
+    Object {
+      "marginTop": 20,
+      "textAlign": "center",
+    }
+  }
+>
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={false}
+    visible={false}
+  >
+    <TextInput
+      allowFontScaling={true}
+      onChangeText={[Function]}
+      placeholder="Search Here"
+      rejectResponderTermination={true}
+      underlineColorAndroid="transparent"
+      value=""
+    />
+    <RCTScrollView
+      ItemSeparatorComponent={[Function]}
+      data={
+        Array [
+          Object {
+            "abbr": "DST",
+            "isdst": false,
+            "offset": -12,
+            "text": "(UTC-12:00) International Date Line West",
+            "utc": Array [
+              "Etc/GMT+12",
+            ],
+            "value": "Dateline Standard Time",
+          },
+          Object {
+            "abbr": "U",
+            "isdst": false,
+            "offset": -11,
+            "text": "(UTC-11:00) Coordinated Universal Time-11",
+            "utc": Array [
+              "Etc/GMT+11",
+              "Pacific/Midway",
+              "Pacific/Niue",
+              "Pacific/Pago_Pago",
+            ],
+            "value": "UTC-11",
+          },
+          Object {
+            "abbr": "HST",
+            "isdst": false,
+            "offset": -10,
+            "text": "(UTC-10:00) Hawaii",
+            "utc": Array [
+              "Etc/GMT+10",
+              "Pacific/Honolulu",
+              "Pacific/Johnston",
+              "Pacific/Rarotonga",
+              "Pacific/Tahiti",
+            ],
+            "value": "Hawaiian Standard Time",
+          },
+          Object {
+            "abbr": "AKDT",
+            "isdst": true,
+            "offset": -8,
+            "text": "(UTC-09:00) Alaska",
+            "utc": Array [
+              "America/Anchorage",
+              "America/Juneau",
+              "America/Nome",
+              "America/Sitka",
+              "America/Yakutat",
+            ],
+            "value": "Alaskan Standard Time",
+          },
+          Object {
+            "abbr": "PDT",
+            "isdst": true,
+            "offset": -7,
+            "text": "(UTC-08:00) Baja California",
+            "utc": Array [
+              "America/Santa_Isabel",
+            ],
+            "value": "Pacific Standard Time (Mexico)",
+          },
+          Object {
+            "abbr": "PDT",
+            "isdst": true,
+            "offset": -7,
+            "text": "(UTC-07:00) Pacific Time (US & Canada)",
+            "utc": Array [
+              "America/Dawson",
+              "America/Los_Angeles",
+              "America/Tijuana",
+              "America/Vancouver",
+              "America/Whitehorse",
+            ],
+            "value": "Pacific Daylight Time",
+          },
+          Object {
+            "abbr": "PST",
+            "isdst": false,
+            "offset": -8,
+            "text": "(UTC-08:00) Pacific Time (US & Canada)",
+            "utc": Array [
+              "America/Dawson",
+              "America/Los_Angeles",
+              "America/Tijuana",
+              "America/Vancouver",
+              "America/Whitehorse",
+              "PST8PDT",
+            ],
+            "value": "Pacific Standard Time",
+          },
+          Object {
+            "abbr": "UMST",
+            "isdst": false,
+            "offset": -7,
+            "text": "(UTC-07:00) Arizona",
+            "utc": Array [
+              "America/Creston",
+              "America/Dawson_Creek",
+              "America/Hermosillo",
+              "America/Phoenix",
+              "Etc/GMT+7",
+            ],
+            "value": "US Mountain Standard Time",
+          },
+          Object {
+            "abbr": "MDT",
+            "isdst": true,
+            "offset": -6,
+            "text": "(UTC-07:00) Chihuahua, La Paz, Mazatlan",
+            "utc": Array [
+              "America/Chihuahua",
+              "America/Mazatlan",
+            ],
+            "value": "Mountain Standard Time (Mexico)",
+          },
+          Object {
+            "abbr": "MDT",
+            "isdst": true,
+            "offset": -6,
+            "text": "(UTC-07:00) Mountain Time (US & Canada)",
+            "utc": Array [
+              "America/Boise",
+              "America/Cambridge_Bay",
+              "America/Denver",
+              "America/Edmonton",
+              "America/Inuvik",
+              "America/Ojinaga",
+              "America/Yellowknife",
+              "MST7MDT",
+            ],
+            "value": "Mountain Standard Time",
+          },
+          Object {
+            "abbr": "CAST",
+            "isdst": false,
+            "offset": -6,
+            "text": "(UTC-06:00) Central America",
+            "utc": Array [
+              "America/Belize",
+              "America/Costa_Rica",
+              "America/El_Salvador",
+              "America/Guatemala",
+              "America/Managua",
+              "America/Tegucigalpa",
+              "Etc/GMT+6",
+              "Pacific/Galapagos",
+            ],
+            "value": "Central America Standard Time",
+          },
+          Object {
+            "abbr": "CDT",
+            "isdst": true,
+            "offset": -5,
+            "text": "(UTC-06:00) Central Time (US & Canada)",
+            "utc": Array [
+              "America/Chicago",
+              "America/Indiana/Knox",
+              "America/Indiana/Tell_City",
+              "America/Matamoros",
+              "America/Menominee",
+              "America/North_Dakota/Beulah",
+              "America/North_Dakota/Center",
+              "America/North_Dakota/New_Salem",
+              "America/Rainy_River",
+              "America/Rankin_Inlet",
+              "America/Resolute",
+              "America/Winnipeg",
+              "CST6CDT",
+            ],
+            "value": "Central Standard Time",
+          },
+          Object {
+            "abbr": "CDT",
+            "isdst": true,
+            "offset": -5,
+            "text": "(UTC-06:00) Guadalajara, Mexico City, Monterrey",
+            "utc": Array [
+              "America/Bahia_Banderas",
+              "America/Cancun",
+              "America/Merida",
+              "America/Mexico_City",
+              "America/Monterrey",
+            ],
+            "value": "Central Standard Time (Mexico)",
+          },
+          Object {
+            "abbr": "CCST",
+            "isdst": false,
+            "offset": -6,
+            "text": "(UTC-06:00) Saskatchewan",
+            "utc": Array [
+              "America/Regina",
+              "America/Swift_Current",
+            ],
+            "value": "Canada Central Standard Time",
+          },
+          Object {
+            "abbr": "SPST",
+            "isdst": false,
+            "offset": -5,
+            "text": "(UTC-05:00) Bogota, Lima, Quito",
+            "utc": Array [
+              "America/Bogota",
+              "America/Cayman",
+              "America/Coral_Harbour",
+              "America/Eirunepe",
+              "America/Guayaquil",
+              "America/Jamaica",
+              "America/Lima",
+              "America/Panama",
+              "America/Rio_Branco",
+              "Etc/GMT+5",
+            ],
+            "value": "SA Pacific Standard Time",
+          },
+          Object {
+            "abbr": "EDT",
+            "isdst": true,
+            "offset": -4,
+            "text": "(UTC-05:00) Eastern Time (US & Canada)",
+            "utc": Array [
+              "America/Detroit",
+              "America/Havana",
+              "America/Indiana/Petersburg",
+              "America/Indiana/Vincennes",
+              "America/Indiana/Winamac",
+              "America/Iqaluit",
+              "America/Kentucky/Monticello",
+              "America/Louisville",
+              "America/Montreal",
+              "America/Nassau",
+              "America/New_York",
+              "America/Nipigon",
+              "America/Pangnirtung",
+              "America/Port-au-Prince",
+              "America/Thunder_Bay",
+              "America/Toronto",
+              "EST5EDT",
+            ],
+            "value": "Eastern Standard Time",
+          },
+          Object {
+            "abbr": "UEDT",
+            "isdst": true,
+            "offset": -4,
+            "text": "(UTC-05:00) Indiana (East)",
+            "utc": Array [
+              "America/Indiana/Marengo",
+              "America/Indiana/Vevay",
+              "America/Indianapolis",
+            ],
+            "value": "US Eastern Standard Time",
+          },
+          Object {
+            "abbr": "VST",
+            "isdst": false,
+            "offset": -4.5,
+            "text": "(UTC-04:30) Caracas",
+            "utc": Array [
+              "America/Caracas",
+            ],
+            "value": "Venezuela Standard Time",
+          },
+          Object {
+            "abbr": "PYT",
+            "isdst": false,
+            "offset": -4,
+            "text": "(UTC-04:00) Asuncion",
+            "utc": Array [
+              "America/Asuncion",
+            ],
+            "value": "Paraguay Standard Time",
+          },
+          Object {
+            "abbr": "ADT",
+            "isdst": true,
+            "offset": -3,
+            "text": "(UTC-04:00) Atlantic Time (Canada)",
+            "utc": Array [
+              "America/Glace_Bay",
+              "America/Goose_Bay",
+              "America/Halifax",
+              "America/Moncton",
+              "America/Thule",
+              "Atlantic/Bermuda",
+            ],
+            "value": "Atlantic Standard Time",
+          },
+          Object {
+            "abbr": "CBST",
+            "isdst": false,
+            "offset": -4,
+            "text": "(UTC-04:00) Cuiaba",
+            "utc": Array [
+              "America/Campo_Grande",
+              "America/Cuiaba",
+            ],
+            "value": "Central Brazilian Standard Time",
+          },
+          Object {
+            "abbr": "SWST",
+            "isdst": false,
+            "offset": -4,
+            "text": "(UTC-04:00) Georgetown, La Paz, Manaus, San Juan",
+            "utc": Array [
+              "America/Anguilla",
+              "America/Antigua",
+              "America/Aruba",
+              "America/Barbados",
+              "America/Blanc-Sablon",
+              "America/Boa_Vista",
+              "America/Curacao",
+              "America/Dominica",
+              "America/Grand_Turk",
+              "America/Grenada",
+              "America/Guadeloupe",
+              "America/Guyana",
+              "America/Kralendijk",
+              "America/La_Paz",
+              "America/Lower_Princes",
+              "America/Manaus",
+              "America/Marigot",
+              "America/Martinique",
+              "America/Montserrat",
+              "America/Port_of_Spain",
+              "America/Porto_Velho",
+              "America/Puerto_Rico",
+              "America/Santo_Domingo",
+              "America/St_Barthelemy",
+              "America/St_Kitts",
+              "America/St_Lucia",
+              "America/St_Thomas",
+              "America/St_Vincent",
+              "America/Tortola",
+              "Etc/GMT+4",
+            ],
+            "value": "SA Western Standard Time",
+          },
+          Object {
+            "abbr": "PSST",
+            "isdst": false,
+            "offset": -4,
+            "text": "(UTC-04:00) Santiago",
+            "utc": Array [
+              "America/Santiago",
+              "Antarctica/Palmer",
+            ],
+            "value": "Pacific SA Standard Time",
+          },
+          Object {
+            "abbr": "NDT",
+            "isdst": true,
+            "offset": -2.5,
+            "text": "(UTC-03:30) Newfoundland",
+            "utc": Array [
+              "America/St_Johns",
+            ],
+            "value": "Newfoundland Standard Time",
+          },
+          Object {
+            "abbr": "ESAST",
+            "isdst": false,
+            "offset": -3,
+            "text": "(UTC-03:00) Brasilia",
+            "utc": Array [
+              "America/Sao_Paulo",
+            ],
+            "value": "E. South America Standard Time",
+          },
+          Object {
+            "abbr": "AST",
+            "isdst": false,
+            "offset": -3,
+            "text": "(UTC-03:00) Buenos Aires",
+            "utc": Array [
+              "America/Argentina/La_Rioja",
+              "America/Argentina/Rio_Gallegos",
+              "America/Argentina/Salta",
+              "America/Argentina/San_Juan",
+              "America/Argentina/San_Luis",
+              "America/Argentina/Tucuman",
+              "America/Argentina/Ushuaia",
+              "America/Buenos_Aires",
+              "America/Catamarca",
+              "America/Cordoba",
+              "America/Jujuy",
+              "America/Mendoza",
+            ],
+            "value": "Argentina Standard Time",
+          },
+          Object {
+            "abbr": "SEST",
+            "isdst": false,
+            "offset": -3,
+            "text": "(UTC-03:00) Cayenne, Fortaleza",
+            "utc": Array [
+              "America/Araguaina",
+              "America/Belem",
+              "America/Cayenne",
+              "America/Fortaleza",
+              "America/Maceio",
+              "America/Paramaribo",
+              "America/Recife",
+              "America/Santarem",
+              "Antarctica/Rothera",
+              "Atlantic/Stanley",
+              "Etc/GMT+3",
+            ],
+            "value": "SA Eastern Standard Time",
+          },
+          Object {
+            "abbr": "GDT",
+            "isdst": true,
+            "offset": -3,
+            "text": "(UTC-03:00) Greenland",
+            "utc": Array [
+              "America/Godthab",
+            ],
+            "value": "Greenland Standard Time",
+          },
+          Object {
+            "abbr": "MST",
+            "isdst": false,
+            "offset": -3,
+            "text": "(UTC-03:00) Montevideo",
+            "utc": Array [
+              "America/Montevideo",
+            ],
+            "value": "Montevideo Standard Time",
+          },
+          Object {
+            "abbr": "BST",
+            "isdst": false,
+            "offset": -3,
+            "text": "(UTC-03:00) Salvador",
+            "utc": Array [
+              "America/Bahia",
+            ],
+            "value": "Bahia Standard Time",
+          },
+          Object {
+            "abbr": "U",
+            "isdst": false,
+            "offset": -2,
+            "text": "(UTC-02:00) Coordinated Universal Time-02",
+            "utc": Array [
+              "America/Noronha",
+              "Atlantic/South_Georgia",
+              "Etc/GMT+2",
+            ],
+            "value": "UTC-02",
+          },
+          Object {
+            "abbr": "MDT",
+            "isdst": true,
+            "offset": -1,
+            "text": "(UTC-02:00) Mid-Atlantic - Old",
+            "utc": Array [],
+            "value": "Mid-Atlantic Standard Time",
+          },
+          Object {
+            "abbr": "ADT",
+            "isdst": true,
+            "offset": 0,
+            "text": "(UTC-01:00) Azores",
+            "utc": Array [
+              "America/Scoresbysund",
+              "Atlantic/Azores",
+            ],
+            "value": "Azores Standard Time",
+          },
+          Object {
+            "abbr": "CVST",
+            "isdst": false,
+            "offset": -1,
+            "text": "(UTC-01:00) Cape Verde Is.",
+            "utc": Array [
+              "Atlantic/Cape_Verde",
+              "Etc/GMT+1",
+            ],
+            "value": "Cape Verde Standard Time",
+          },
+          Object {
+            "abbr": "MDT",
+            "isdst": true,
+            "offset": 1,
+            "text": "(UTC) Casablanca",
+            "utc": Array [
+              "Africa/Casablanca",
+              "Africa/El_Aaiun",
+            ],
+            "value": "Morocco Standard Time",
+          },
+          Object {
+            "abbr": "UTC",
+            "isdst": false,
+            "offset": 0,
+            "text": "(UTC) Coordinated Universal Time",
+            "utc": Array [
+              "America/Danmarkshavn",
+              "Etc/GMT",
+            ],
+            "value": "UTC",
+          },
+          Object {
+            "abbr": "GMT",
+            "isdst": false,
+            "offset": 0,
+            "text": "(UTC) Edinburgh, London",
+            "utc": Array [
+              "Europe/Isle_of_Man",
+              "Europe/Guernsey",
+              "Europe/Jersey",
+              "Europe/London",
+            ],
+            "value": "GMT Standard Time",
+          },
+          Object {
+            "abbr": "BST",
+            "isdst": true,
+            "offset": 1,
+            "text": "(UTC+01:00) Edinburgh, London",
+            "utc": Array [
+              "Europe/Isle_of_Man",
+              "Europe/Guernsey",
+              "Europe/Jersey",
+              "Europe/London",
+            ],
+            "value": "British Summer Time",
+          },
+          Object {
+            "abbr": "GDT",
+            "isdst": true,
+            "offset": 1,
+            "text": "(UTC) Dublin, Lisbon",
+            "utc": Array [
+              "Atlantic/Canary",
+              "Atlantic/Faeroe",
+              "Atlantic/Madeira",
+              "Europe/Dublin",
+              "Europe/Lisbon",
+            ],
+            "value": "GMT Standard Time",
+          },
+          Object {
+            "abbr": "GST",
+            "isdst": false,
+            "offset": 0,
+            "text": "(UTC) Monrovia, Reykjavik",
+            "utc": Array [
+              "Africa/Abidjan",
+              "Africa/Accra",
+              "Africa/Bamako",
+              "Africa/Banjul",
+              "Africa/Bissau",
+              "Africa/Conakry",
+              "Africa/Dakar",
+              "Africa/Freetown",
+              "Africa/Lome",
+              "Africa/Monrovia",
+              "Africa/Nouakchott",
+              "Africa/Ouagadougou",
+              "Africa/Sao_Tome",
+              "Atlantic/Reykjavik",
+              "Atlantic/St_Helena",
+            ],
+            "value": "Greenwich Standard Time",
+          },
+          Object {
+            "abbr": "WEDT",
+            "isdst": true,
+            "offset": 2,
+            "text": "(UTC+01:00) Amsterdam, Berlin, Bern, Rome, Stockholm, Vienna",
+            "utc": Array [
+              "Arctic/Longyearbyen",
+              "Europe/Amsterdam",
+              "Europe/Andorra",
+              "Europe/Berlin",
+              "Europe/Busingen",
+              "Europe/Gibraltar",
+              "Europe/Luxembourg",
+              "Europe/Malta",
+              "Europe/Monaco",
+              "Europe/Oslo",
+              "Europe/Rome",
+              "Europe/San_Marino",
+              "Europe/Stockholm",
+              "Europe/Vaduz",
+              "Europe/Vatican",
+              "Europe/Vienna",
+              "Europe/Zurich",
+            ],
+            "value": "W. Europe Standard Time",
+          },
+          Object {
+            "abbr": "CEDT",
+            "isdst": true,
+            "offset": 2,
+            "text": "(UTC+01:00) Belgrade, Bratislava, Budapest, Ljubljana, Prague",
+            "utc": Array [
+              "Europe/Belgrade",
+              "Europe/Bratislava",
+              "Europe/Budapest",
+              "Europe/Ljubljana",
+              "Europe/Podgorica",
+              "Europe/Prague",
+              "Europe/Tirane",
+            ],
+            "value": "Central Europe Standard Time",
+          },
+          Object {
+            "abbr": "RDT",
+            "isdst": true,
+            "offset": 2,
+            "text": "(UTC+01:00) Brussels, Copenhagen, Madrid, Paris",
+            "utc": Array [
+              "Africa/Ceuta",
+              "Europe/Brussels",
+              "Europe/Copenhagen",
+              "Europe/Madrid",
+              "Europe/Paris",
+            ],
+            "value": "Romance Standard Time",
+          },
+          Object {
+            "abbr": "CEDT",
+            "isdst": true,
+            "offset": 2,
+            "text": "(UTC+01:00) Sarajevo, Skopje, Warsaw, Zagreb",
+            "utc": Array [
+              "Europe/Sarajevo",
+              "Europe/Skopje",
+              "Europe/Warsaw",
+              "Europe/Zagreb",
+            ],
+            "value": "Central European Standard Time",
+          },
+          Object {
+            "abbr": "WCAST",
+            "isdst": false,
+            "offset": 1,
+            "text": "(UTC+01:00) West Central Africa",
+            "utc": Array [
+              "Africa/Algiers",
+              "Africa/Bangui",
+              "Africa/Brazzaville",
+              "Africa/Douala",
+              "Africa/Kinshasa",
+              "Africa/Lagos",
+              "Africa/Libreville",
+              "Africa/Luanda",
+              "Africa/Malabo",
+              "Africa/Ndjamena",
+              "Africa/Niamey",
+              "Africa/Porto-Novo",
+              "Africa/Tunis",
+              "Etc/GMT-1",
+            ],
+            "value": "W. Central Africa Standard Time",
+          },
+          Object {
+            "abbr": "NST",
+            "isdst": false,
+            "offset": 1,
+            "text": "(UTC+01:00) Windhoek",
+            "utc": Array [
+              "Africa/Windhoek",
+            ],
+            "value": "Namibia Standard Time",
+          },
+          Object {
+            "abbr": "GDT",
+            "isdst": true,
+            "offset": 3,
+            "text": "(UTC+02:00) Athens, Bucharest",
+            "utc": Array [
+              "Asia/Nicosia",
+              "Europe/Athens",
+              "Europe/Bucharest",
+              "Europe/Chisinau",
+            ],
+            "value": "GTB Standard Time",
+          },
+          Object {
+            "abbr": "MEDT",
+            "isdst": true,
+            "offset": 3,
+            "text": "(UTC+02:00) Beirut",
+            "utc": Array [
+              "Asia/Beirut",
+            ],
+            "value": "Middle East Standard Time",
+          },
+          Object {
+            "abbr": "EST",
+            "isdst": false,
+            "offset": 2,
+            "text": "(UTC+02:00) Cairo",
+            "utc": Array [
+              "Africa/Cairo",
+            ],
+            "value": "Egypt Standard Time",
+          },
+          Object {
+            "abbr": "SDT",
+            "isdst": true,
+            "offset": 3,
+            "text": "(UTC+02:00) Damascus",
+            "utc": Array [
+              "Asia/Damascus",
+            ],
+            "value": "Syria Standard Time",
+          },
+          Object {
+            "abbr": "EEDT",
+            "isdst": true,
+            "offset": 3,
+            "text": "(UTC+02:00) E. Europe",
+            "utc": Array [
+              "Asia/Nicosia",
+              "Europe/Athens",
+              "Europe/Bucharest",
+              "Europe/Chisinau",
+              "Europe/Helsinki",
+              "Europe/Kiev",
+              "Europe/Mariehamn",
+              "Europe/Nicosia",
+              "Europe/Riga",
+              "Europe/Sofia",
+              "Europe/Tallinn",
+              "Europe/Uzhgorod",
+              "Europe/Vilnius",
+              "Europe/Zaporozhye",
+            ],
+            "value": "E. Europe Standard Time",
+          },
+          Object {
+            "abbr": "SAST",
+            "isdst": false,
+            "offset": 2,
+            "text": "(UTC+02:00) Harare, Pretoria",
+            "utc": Array [
+              "Africa/Blantyre",
+              "Africa/Bujumbura",
+              "Africa/Gaborone",
+              "Africa/Harare",
+              "Africa/Johannesburg",
+              "Africa/Kigali",
+              "Africa/Lubumbashi",
+              "Africa/Lusaka",
+              "Africa/Maputo",
+              "Africa/Maseru",
+              "Africa/Mbabane",
+              "Etc/GMT-2",
+            ],
+            "value": "South Africa Standard Time",
+          },
+          Object {
+            "abbr": "FDT",
+            "isdst": true,
+            "offset": 3,
+            "text": "(UTC+02:00) Helsinki, Kyiv, Riga, Sofia, Tallinn, Vilnius",
+            "utc": Array [
+              "Europe/Helsinki",
+              "Europe/Kiev",
+              "Europe/Mariehamn",
+              "Europe/Riga",
+              "Europe/Sofia",
+              "Europe/Tallinn",
+              "Europe/Uzhgorod",
+              "Europe/Vilnius",
+              "Europe/Zaporozhye",
+            ],
+            "value": "FLE Standard Time",
+          },
+          Object {
+            "abbr": "TDT",
+            "isdst": false,
+            "offset": 3,
+            "text": "(UTC+03:00) Istanbul",
+            "utc": Array [
+              "Europe/Istanbul",
+            ],
+            "value": "Turkey Standard Time",
+          },
+          Object {
+            "abbr": "JDT",
+            "isdst": true,
+            "offset": 3,
+            "text": "(UTC+02:00) Jerusalem",
+            "utc": Array [
+              "Asia/Jerusalem",
+            ],
+            "value": "Israel Standard Time",
+          },
+          Object {
+            "abbr": "LST",
+            "isdst": false,
+            "offset": 2,
+            "text": "(UTC+02:00) Tripoli",
+            "utc": Array [
+              "Africa/Tripoli",
+            ],
+            "value": "Libya Standard Time",
+          },
+          Object {
+            "abbr": "JST",
+            "isdst": false,
+            "offset": 3,
+            "text": "(UTC+03:00) Amman",
+            "utc": Array [
+              "Asia/Amman",
+            ],
+            "value": "Jordan Standard Time",
+          },
+          Object {
+            "abbr": "AST",
+            "isdst": false,
+            "offset": 3,
+            "text": "(UTC+03:00) Baghdad",
+            "utc": Array [
+              "Asia/Baghdad",
+            ],
+            "value": "Arabic Standard Time",
+          },
+          Object {
+            "abbr": "KST",
+            "isdst": false,
+            "offset": 3,
+            "text": "(UTC+02:00) Kaliningrad",
+            "utc": Array [
+              "Europe/Kaliningrad",
+            ],
+            "value": "Kaliningrad Standard Time",
+          },
+          Object {
+            "abbr": "AST",
+            "isdst": false,
+            "offset": 3,
+            "text": "(UTC+03:00) Kuwait, Riyadh",
+            "utc": Array [
+              "Asia/Aden",
+              "Asia/Bahrain",
+              "Asia/Kuwait",
+              "Asia/Qatar",
+              "Asia/Riyadh",
+            ],
+            "value": "Arab Standard Time",
+          },
+          Object {
+            "abbr": "EAST",
+            "isdst": false,
+            "offset": 3,
+            "text": "(UTC+03:00) Nairobi",
+            "utc": Array [
+              "Africa/Addis_Ababa",
+              "Africa/Asmera",
+              "Africa/Dar_es_Salaam",
+              "Africa/Djibouti",
+              "Africa/Juba",
+              "Africa/Kampala",
+              "Africa/Khartoum",
+              "Africa/Mogadishu",
+              "Africa/Nairobi",
+              "Antarctica/Syowa",
+              "Etc/GMT-3",
+              "Indian/Antananarivo",
+              "Indian/Comoro",
+              "Indian/Mayotte",
+            ],
+            "value": "E. Africa Standard Time",
+          },
+          Object {
+            "abbr": "MSK",
+            "isdst": false,
+            "offset": 3,
+            "text": "(UTC+03:00) Moscow, St. Petersburg, Volgograd, Minsk",
+            "utc": Array [
+              "Europe/Kirov",
+              "Europe/Moscow",
+              "Europe/Simferopol",
+              "Europe/Volgograd",
+              "Europe/Minsk",
+            ],
+            "value": "Moscow Standard Time",
+          },
+          Object {
+            "abbr": "SAMT",
+            "isdst": false,
+            "offset": 4,
+            "text": "(UTC+04:00) Samara, Ulyanovsk, Saratov",
+            "utc": Array [
+              "Europe/Astrakhan",
+              "Europe/Samara",
+              "Europe/Ulyanovsk",
+            ],
+            "value": "Samara Time",
+          },
+          Object {
+            "abbr": "IDT",
+            "isdst": true,
+            "offset": 4.5,
+            "text": "(UTC+03:30) Tehran",
+            "utc": Array [
+              "Asia/Tehran",
+            ],
+            "value": "Iran Standard Time",
+          },
+          Object {
+            "abbr": "AST",
+            "isdst": false,
+            "offset": 4,
+            "text": "(UTC+04:00) Abu Dhabi, Muscat",
+            "utc": Array [
+              "Asia/Dubai",
+              "Asia/Muscat",
+              "Etc/GMT-4",
+            ],
+            "value": "Arabian Standard Time",
+          },
+          Object {
+            "abbr": "ADT",
+            "isdst": true,
+            "offset": 5,
+            "text": "(UTC+04:00) Baku",
+            "utc": Array [
+              "Asia/Baku",
+            ],
+            "value": "Azerbaijan Standard Time",
+          },
+          Object {
+            "abbr": "MST",
+            "isdst": false,
+            "offset": 4,
+            "text": "(UTC+04:00) Port Louis",
+            "utc": Array [
+              "Indian/Mahe",
+              "Indian/Mauritius",
+              "Indian/Reunion",
+            ],
+            "value": "Mauritius Standard Time",
+          },
+          Object {
+            "abbr": "GET",
+            "isdst": false,
+            "offset": 4,
+            "text": "(UTC+04:00) Tbilisi",
+            "utc": Array [
+              "Asia/Tbilisi",
+            ],
+            "value": "Georgian Standard Time",
+          },
+          Object {
+            "abbr": "CST",
+            "isdst": false,
+            "offset": 4,
+            "text": "(UTC+04:00) Yerevan",
+            "utc": Array [
+              "Asia/Yerevan",
+            ],
+            "value": "Caucasus Standard Time",
+          },
+          Object {
+            "abbr": "AST",
+            "isdst": false,
+            "offset": 4.5,
+            "text": "(UTC+04:30) Kabul",
+            "utc": Array [
+              "Asia/Kabul",
+            ],
+            "value": "Afghanistan Standard Time",
+          },
+          Object {
+            "abbr": "WAST",
+            "isdst": false,
+            "offset": 5,
+            "text": "(UTC+05:00) Ashgabat, Tashkent",
+            "utc": Array [
+              "Antarctica/Mawson",
+              "Asia/Aqtau",
+              "Asia/Aqtobe",
+              "Asia/Ashgabat",
+              "Asia/Dushanbe",
+              "Asia/Oral",
+              "Asia/Samarkand",
+              "Asia/Tashkent",
+              "Etc/GMT-5",
+              "Indian/Kerguelen",
+              "Indian/Maldives",
+            ],
+            "value": "West Asia Standard Time",
+          },
+          Object {
+            "abbr": "YEKT",
+            "isdst": false,
+            "offset": 5,
+            "text": "(UTC+05:00) Yekaterinburg",
+            "utc": Array [
+              "Asia/Yekaterinburg",
+            ],
+            "value": "Yekaterinburg Time",
+          },
+          Object {
+            "abbr": "PKT",
+            "isdst": false,
+            "offset": 5,
+            "text": "(UTC+05:00) Islamabad, Karachi",
+            "utc": Array [
+              "Asia/Karachi",
+            ],
+            "value": "Pakistan Standard Time",
+          },
+          Object {
+            "abbr": "IST",
+            "isdst": false,
+            "offset": 5.5,
+            "text": "(UTC+05:30) Chennai, Kolkata, Mumbai, New Delhi",
+            "utc": Array [
+              "Asia/Kolkata",
+            ],
+            "value": "India Standard Time",
+          },
+          Object {
+            "abbr": "SLST",
+            "isdst": false,
+            "offset": 5.5,
+            "text": "(UTC+05:30) Sri Jayawardenepura",
+            "utc": Array [
+              "Asia/Colombo",
+            ],
+            "value": "Sri Lanka Standard Time",
+          },
+          Object {
+            "abbr": "NST",
+            "isdst": false,
+            "offset": 5.75,
+            "text": "(UTC+05:45) Kathmandu",
+            "utc": Array [
+              "Asia/Kathmandu",
+            ],
+            "value": "Nepal Standard Time",
+          },
+          Object {
+            "abbr": "CAST",
+            "isdst": false,
+            "offset": 6,
+            "text": "(UTC+06:00) Nur-Sultan (Astana)",
+            "utc": Array [
+              "Antarctica/Vostok",
+              "Asia/Almaty",
+              "Asia/Bishkek",
+              "Asia/Qyzylorda",
+              "Asia/Urumqi",
+              "Etc/GMT-6",
+              "Indian/Chagos",
+            ],
+            "value": "Central Asia Standard Time",
+          },
+          Object {
+            "abbr": "BST",
+            "isdst": false,
+            "offset": 6,
+            "text": "(UTC+06:00) Dhaka",
+            "utc": Array [
+              "Asia/Dhaka",
+              "Asia/Thimphu",
+            ],
+            "value": "Bangladesh Standard Time",
+          },
+          Object {
+            "abbr": "MST",
+            "isdst": false,
+            "offset": 6.5,
+            "text": "(UTC+06:30) Yangon (Rangoon)",
+            "utc": Array [
+              "Asia/Rangoon",
+              "Indian/Cocos",
+            ],
+            "value": "Myanmar Standard Time",
+          },
+          Object {
+            "abbr": "SAST",
+            "isdst": false,
+            "offset": 7,
+            "text": "(UTC+07:00) Bangkok, Hanoi, Jakarta",
+            "utc": Array [
+              "Antarctica/Davis",
+              "Asia/Bangkok",
+              "Asia/Hovd",
+              "Asia/Jakarta",
+              "Asia/Phnom_Penh",
+              "Asia/Pontianak",
+              "Asia/Saigon",
+              "Asia/Vientiane",
+              "Etc/GMT-7",
+              "Indian/Christmas",
+            ],
+            "value": "SE Asia Standard Time",
+          },
+          Object {
+            "abbr": "NCAST",
+            "isdst": false,
+            "offset": 7,
+            "text": "(UTC+07:00) Novosibirsk",
+            "utc": Array [
+              "Asia/Novokuznetsk",
+              "Asia/Novosibirsk",
+              "Asia/Omsk",
+            ],
+            "value": "N. Central Asia Standard Time",
+          },
+          Object {
+            "abbr": "CST",
+            "isdst": false,
+            "offset": 8,
+            "text": "(UTC+08:00) Beijing, Chongqing, Hong Kong, Urumqi",
+            "utc": Array [
+              "Asia/Hong_Kong",
+              "Asia/Macau",
+              "Asia/Shanghai",
+            ],
+            "value": "China Standard Time",
+          },
+          Object {
+            "abbr": "NAST",
+            "isdst": false,
+            "offset": 8,
+            "text": "(UTC+08:00) Krasnoyarsk",
+            "utc": Array [
+              "Asia/Krasnoyarsk",
+            ],
+            "value": "North Asia Standard Time",
+          },
+          Object {
+            "abbr": "MPST",
+            "isdst": false,
+            "offset": 8,
+            "text": "(UTC+08:00) Kuala Lumpur, Singapore",
+            "utc": Array [
+              "Asia/Brunei",
+              "Asia/Kuala_Lumpur",
+              "Asia/Kuching",
+              "Asia/Makassar",
+              "Asia/Manila",
+              "Asia/Singapore",
+              "Etc/GMT-8",
+            ],
+            "value": "Singapore Standard Time",
+          },
+          Object {
+            "abbr": "WAST",
+            "isdst": false,
+            "offset": 8,
+            "text": "(UTC+08:00) Perth",
+            "utc": Array [
+              "Antarctica/Casey",
+              "Australia/Perth",
+            ],
+            "value": "W. Australia Standard Time",
+          },
+          Object {
+            "abbr": "TST",
+            "isdst": false,
+            "offset": 8,
+            "text": "(UTC+08:00) Taipei",
+            "utc": Array [
+              "Asia/Taipei",
+            ],
+            "value": "Taipei Standard Time",
+          },
+          Object {
+            "abbr": "UST",
+            "isdst": false,
+            "offset": 8,
+            "text": "(UTC+08:00) Ulaanbaatar",
+            "utc": Array [
+              "Asia/Choibalsan",
+              "Asia/Ulaanbaatar",
+            ],
+            "value": "Ulaanbaatar Standard Time",
+          },
+          Object {
+            "abbr": "NAEST",
+            "isdst": false,
+            "offset": 8,
+            "text": "(UTC+08:00) Irkutsk",
+            "utc": Array [
+              "Asia/Irkutsk",
+            ],
+            "value": "North Asia East Standard Time",
+          },
+          Object {
+            "abbr": "JST",
+            "isdst": false,
+            "offset": 9,
+            "text": "(UTC+09:00) Osaka, Sapporo, Tokyo",
+            "utc": Array [
+              "Asia/Dili",
+              "Asia/Jayapura",
+              "Asia/Tokyo",
+              "Etc/GMT-9",
+              "Pacific/Palau",
+            ],
+            "value": "Japan Standard Time",
+          },
+          Object {
+            "abbr": "KST",
+            "isdst": false,
+            "offset": 9,
+            "text": "(UTC+09:00) Seoul",
+            "utc": Array [
+              "Asia/Pyongyang",
+              "Asia/Seoul",
+            ],
+            "value": "Korea Standard Time",
+          },
+          Object {
+            "abbr": "CAST",
+            "isdst": false,
+            "offset": 9.5,
+            "text": "(UTC+09:30) Adelaide",
+            "utc": Array [
+              "Australia/Adelaide",
+              "Australia/Broken_Hill",
+            ],
+            "value": "Cen. Australia Standard Time",
+          },
+          Object {
+            "abbr": "ACST",
+            "isdst": false,
+            "offset": 9.5,
+            "text": "(UTC+09:30) Darwin",
+            "utc": Array [
+              "Australia/Darwin",
+            ],
+            "value": "AUS Central Standard Time",
+          },
+          Object {
+            "abbr": "EAST",
+            "isdst": false,
+            "offset": 10,
+            "text": "(UTC+10:00) Brisbane",
+            "utc": Array [
+              "Australia/Brisbane",
+              "Australia/Lindeman",
+            ],
+            "value": "E. Australia Standard Time",
+          },
+          Object {
+            "abbr": "AEST",
+            "isdst": false,
+            "offset": 10,
+            "text": "(UTC+10:00) Canberra, Melbourne, Sydney",
+            "utc": Array [
+              "Australia/Melbourne",
+              "Australia/Sydney",
+            ],
+            "value": "AUS Eastern Standard Time",
+          },
+          Object {
+            "abbr": "WPST",
+            "isdst": false,
+            "offset": 10,
+            "text": "(UTC+10:00) Guam, Port Moresby",
+            "utc": Array [
+              "Antarctica/DumontDUrville",
+              "Etc/GMT-10",
+              "Pacific/Guam",
+              "Pacific/Port_Moresby",
+              "Pacific/Saipan",
+              "Pacific/Truk",
+            ],
+            "value": "West Pacific Standard Time",
+          },
+          Object {
+            "abbr": "TST",
+            "isdst": false,
+            "offset": 10,
+            "text": "(UTC+10:00) Hobart",
+            "utc": Array [
+              "Australia/Currie",
+              "Australia/Hobart",
+            ],
+            "value": "Tasmania Standard Time",
+          },
+          Object {
+            "abbr": "YST",
+            "isdst": false,
+            "offset": 9,
+            "text": "(UTC+09:00) Yakutsk",
+            "utc": Array [
+              "Asia/Chita",
+              "Asia/Khandyga",
+              "Asia/Yakutsk",
+            ],
+            "value": "Yakutsk Standard Time",
+          },
+          Object {
+            "abbr": "CPST",
+            "isdst": false,
+            "offset": 11,
+            "text": "(UTC+11:00) Solomon Is., New Caledonia",
+            "utc": Array [
+              "Antarctica/Macquarie",
+              "Etc/GMT-11",
+              "Pacific/Efate",
+              "Pacific/Guadalcanal",
+              "Pacific/Kosrae",
+              "Pacific/Noumea",
+              "Pacific/Ponape",
+            ],
+            "value": "Central Pacific Standard Time",
+          },
+          Object {
+            "abbr": "VST",
+            "isdst": false,
+            "offset": 11,
+            "text": "(UTC+11:00) Vladivostok",
+            "utc": Array [
+              "Asia/Sakhalin",
+              "Asia/Ust-Nera",
+              "Asia/Vladivostok",
+            ],
+            "value": "Vladivostok Standard Time",
+          },
+          Object {
+            "abbr": "NZST",
+            "isdst": false,
+            "offset": 12,
+            "text": "(UTC+12:00) Auckland, Wellington",
+            "utc": Array [
+              "Antarctica/McMurdo",
+              "Pacific/Auckland",
+            ],
+            "value": "New Zealand Standard Time",
+          },
+          Object {
+            "abbr": "U",
+            "isdst": false,
+            "offset": 12,
+            "text": "(UTC+12:00) Coordinated Universal Time+12",
+            "utc": Array [
+              "Etc/GMT-12",
+              "Pacific/Funafuti",
+              "Pacific/Kwajalein",
+              "Pacific/Majuro",
+              "Pacific/Nauru",
+              "Pacific/Tarawa",
+              "Pacific/Wake",
+              "Pacific/Wallis",
+            ],
+            "value": "UTC+12",
+          },
+          Object {
+            "abbr": "FST",
+            "isdst": false,
+            "offset": 12,
+            "text": "(UTC+12:00) Fiji",
+            "utc": Array [
+              "Pacific/Fiji",
+            ],
+            "value": "Fiji Standard Time",
+          },
+          Object {
+            "abbr": "MST",
+            "isdst": false,
+            "offset": 12,
+            "text": "(UTC+12:00) Magadan",
+            "utc": Array [
+              "Asia/Anadyr",
+              "Asia/Kamchatka",
+              "Asia/Magadan",
+              "Asia/Srednekolymsk",
+            ],
+            "value": "Magadan Standard Time",
+          },
+          Object {
+            "abbr": "KDT",
+            "isdst": true,
+            "offset": 13,
+            "text": "(UTC+12:00) Petropavlovsk-Kamchatsky - Old",
+            "utc": Array [
+              "Asia/Kamchatka",
+            ],
+            "value": "Kamchatka Standard Time",
+          },
+          Object {
+            "abbr": "TST",
+            "isdst": false,
+            "offset": 13,
+            "text": "(UTC+13:00) Nuku'alofa",
+            "utc": Array [
+              "Etc/GMT-13",
+              "Pacific/Enderbury",
+              "Pacific/Fakaofo",
+              "Pacific/Tongatapu",
+            ],
+            "value": "Tonga Standard Time",
+          },
+          Object {
+            "abbr": "SST",
+            "isdst": false,
+            "offset": 13,
+            "text": "(UTC+13:00) Samoa",
+            "utc": Array [
+              "Pacific/Apia",
+            ],
+            "value": "Samoa Standard Time",
+          },
+        ]
+      }
+      disableVirtualization={false}
+      getItem={[Function]}
+      getItemCount={[Function]}
+      horizontal={false}
+      initialNumToRender={10}
+      keyExtractor={[Function]}
+      maxToRenderPerBatch={10}
+      onContentSizeChange={[Function]}
+      onEndReachedThreshold={2}
+      onLayout={[Function]}
+      onMomentumScrollEnd={[Function]}
+      onScroll={[Function]}
+      onScrollBeginDrag={[Function]}
+      onScrollEndDrag={[Function]}
+      removeClippedSubviews={false}
+      renderItem={[Function]}
+      scrollEventThrottle={50}
+      stickyHeaderIndices={Array []}
+      style={
+        Object {
+          "marginTop": 10,
+        }
+      }
+      updateCellsBatchingPeriod={50}
+      viewabilityConfigCallbackPairs={Array []}
+      windowSize={21}
+    >
+      <View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 18,
+                "padding": 12,
+              }
+            }
+          >
+            Dateline Standard Time
+          </Text>
+          <View
+            style={
+              Object {
+                "height": 0.5,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 18,
+                "padding": 12,
+              }
+            }
+          >
+            UTC-11
+          </Text>
+          <View
+            style={
+              Object {
+                "height": 0.5,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 18,
+                "padding": 12,
+              }
+            }
+          >
+            Hawaiian Standard Time
+          </Text>
+          <View
+            style={
+              Object {
+                "height": 0.5,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 18,
+                "padding": 12,
+              }
+            }
+          >
+            Alaskan Standard Time
+          </Text>
+          <View
+            style={
+              Object {
+                "height": 0.5,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 18,
+                "padding": 12,
+              }
+            }
+          >
+            Pacific Standard Time (Mexico)
+          </Text>
+          <View
+            style={
+              Object {
+                "height": 0.5,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 18,
+                "padding": 12,
+              }
+            }
+          >
+            Pacific Daylight Time
+          </Text>
+          <View
+            style={
+              Object {
+                "height": 0.5,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 18,
+                "padding": 12,
+              }
+            }
+          >
+            Pacific Standard Time
+          </Text>
+          <View
+            style={
+              Object {
+                "height": 0.5,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 18,
+                "padding": 12,
+              }
+            }
+          >
+            US Mountain Standard Time
+          </Text>
+          <View
+            style={
+              Object {
+                "height": 0.5,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 18,
+                "padding": 12,
+              }
+            }
+          >
+            Mountain Standard Time (Mexico)
+          </Text>
+          <View
+            style={
+              Object {
+                "height": 0.5,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          onLayout={[Function]}
+          style={null}
+        >
+          <Text
+            onPress={[Function]}
+            style={
+              Object {
+                "fontSize": 18,
+                "padding": 12,
+              }
+            }
+          >
+            Mountain Standard Time
+          </Text>
+          <View
+            style={
+              Object {
+                "height": 0.5,
+                "width": "100%",
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            Object {
+              "height": 0,
+            }
+          }
+        />
+      </View>
+    </RCTScrollView>
+    <View
+      accessibilityRole="button"
+      accessibilityState={Object {}}
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          close
+        </Text>
+      </View>
+    </View>
+  </Modal>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        testing component
+      </Text>
+    </View>
+  </View>
+</View>
+`;

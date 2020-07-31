@@ -1,0 +1,158 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CustomColorPicker Component Custom Color Picker Snapshot Validation 1`] = `
+<View
+  style={
+    Object {
+      "marginTop": 20,
+    }
+  }
+>
+  <Modal
+    animationType="slide"
+    hardwareAccelerated={false}
+    onRequestClose={[Function]}
+    transparent={false}
+    visible={false}
+  >
+    <View
+      style={
+        Object {
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        onLayout={[Function]}
+        style={
+          Object {
+            "alignItems": "center",
+            "flex": 1,
+            "justifyContent": "center",
+          }
+        }
+      />
+      <View>
+        <RCTSlider
+          disabled={false}
+          enabled={true}
+          maximumValue={1}
+          minimumValue={0}
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onSlidingComplete={null}
+          onStartShouldSetResponder={[Function]}
+          onValueChange={[Function]}
+          step={0}
+          style={
+            Object {
+              "height": 40,
+            }
+          }
+          value={1}
+        />
+        <RCTSlider
+          disabled={false}
+          enabled={true}
+          maximumValue={1}
+          minimumValue={0}
+          onChange={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onSlidingComplete={null}
+          onStartShouldSetResponder={[Function]}
+          onValueChange={[Function]}
+          step={0}
+          style={
+            Object {
+              "height": 40,
+            }
+          }
+          value={1}
+        />
+      </View>
+    </View>
+    <View
+      accessibilityRole="button"
+      accessibilityState={Object {}}
+      accessible={true}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Object {
+          "opacity": 1,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {},
+          ]
+        }
+      >
+        <Text
+          style={
+            Array [
+              Object {
+                "color": "#007AFF",
+                "fontSize": 18,
+                "margin": 8,
+                "textAlign": "center",
+              },
+            ]
+          }
+        >
+          close
+        </Text>
+      </View>
+    </View>
+  </Modal>
+  <View
+    accessibilityRole="button"
+    accessibilityState={Object {}}
+    accessible={true}
+    focusable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Object {
+        "opacity": 1,
+      }
+    }
+  >
+    <View
+      style={
+        Array [
+          Object {},
+        ]
+      }
+    >
+      <Text
+        style={
+          Array [
+            Object {
+              "color": "#007AFF",
+              "fontSize": 18,
+              "margin": 8,
+              "textAlign": "center",
+            },
+          ]
+        }
+      >
+        testing component
+      </Text>
+    </View>
+  </View>
+</View>
+`;

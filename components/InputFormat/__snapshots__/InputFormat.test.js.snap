@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputFormat Component Input Format Snapshot Validation 1`] = `
+<View
+  style={
+    Object {
+      "marginTop": 20,
+    }
+  }
+>
+  <Text
+    onPress={[Function]}
+  >
+    testing component
+  </Text>
+  <TextInput
+    allowFontScaling={true}
+    defaultValue="HH:MM\\"YYYY"
+    onChangeText={[Function]}
+    rejectResponderTermination={true}
+    underlineColorAndroid="transparent"
+  />
+</View>
+`;

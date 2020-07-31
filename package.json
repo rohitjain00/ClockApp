@@ -6,7 +6,15 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "eject": "expo eject",
-    "lint": "./node_modules/.bin/eslint *.js **/*.js"
+    "lint": "./node_modules/.bin/eslint .",
+    "test": "./node_modules/.bin/jest --silent --env=jsdom"
+  },
+  "jest": {
+    "preset": "jest-expo",
+    "setupTestFrameworkScriptFile": "./node_modules/jest-enzyme/lib/index.js",
+    "setupFiles": [
+      "enzyme-react-16-adapter-setup"
+    ]
   },
   "dependencies": {
     "expo": "38.0.8",
@@ -20,12 +28,19 @@
   },
   "devDependencies": {
     "@babel/core": "7.11.0",
+    "@testing-library/react-native": "^7.0.1",
     "babel-eslint": "10.1.0",
     "babel-preset-expo": "8.1.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "enzyme-react-16-adapter-setup": "^0.1.0",
     "eslint": "7.5.0",
     "eslint-config-google": "0.14.0",
     "eslint-plugin-react": "7.20.5",
-    "eslint-plugin-react-native": "3.8.1"
+    "eslint-plugin-react-native": "3.8.1",
+    "jest": "^26.2.2",
+    "jest-enzyme": "^7.1.2",
+    "react-test-renderer": "^16.13.1"
   },
   "private": true
 }

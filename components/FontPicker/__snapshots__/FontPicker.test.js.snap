@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FontPicker Component Font Picker Snapshot Validation 1`] = `
+<View
+  style={
+    Object {
+      "marginTop": 20,
+      "textAlign": "center",
+    }
+  }
+>
+  <Text>
+    testing component
+  </Text>
+  <View>
+    <RCTPicker
+      items={
+        Array [
+          Object {
+            "label": "test",
+            "textColor": undefined,
+            "value": "test",
+          },
+          Object {
+            "label": "test2",
+            "textColor": undefined,
+            "value": "test2",
+          },
+        ]
+      }
+      onChange={[Function]}
+      selectedIndex={0}
+      style={
+        Array [
+          Object {
+            "height": 216,
+          },
+          undefined,
+        ]
+      }
+    />
+  </View>
+</View>
+`;
