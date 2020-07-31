@@ -100,5 +100,5 @@ const styles = StyleSheet.create({
 });
 CustomSearchFlatList.propTypes = {
   onChange: PropTypes.func,
-  text: PropTypes.text
+  text: PropTypes.string
 }

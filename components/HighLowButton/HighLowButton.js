@@ -43,5 +43,5 @@ const styles = StyleSheet.create({
 HighLowButton.propTypes = {
   onChange: PropTypes.func,
   text: PropTypes.string,
-  value: PropTypes.value
+  value: PropTypes.number
 }
