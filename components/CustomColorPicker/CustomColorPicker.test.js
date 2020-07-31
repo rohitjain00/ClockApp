@@ -1,15 +1,15 @@
 //CustomColorPicker.test.js
 import React from 'react';
 import {render} from '@testing-library/react-native';
-import { CustomColorPicker } from "./CustomColorPicker";
+import {CustomColorPicker} from "./CustomColorPicker";
 import {configure, mount} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
-configure({ adapter: new Adapter() });
+configure({adapter: new Adapter()});
 
 describe('CustomColorPicker Component', () => {
     const mockOnPress = jest.fn();
-    const component = <CustomColorPicker  value={'#000000'} onChange={mockOnPress} text={'testing component'} />
+    const component = <CustomColorPicker value={'#000000'} onChange={mockOnPress} text={'testing component'}/>
     let wrapper;
     beforeEach(() => {
         wrapper = mount(component);

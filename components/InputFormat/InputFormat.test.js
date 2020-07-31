@@ -1,11 +1,11 @@
 //CustomColorPicker.test.js
 import React from 'react';
 import {render} from '@testing-library/react-native';
-import { InputFormat } from "./InputFormat";
+import {InputFormat} from "./InputFormat";
 import {configure, mount} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
-configure({ adapter: new Adapter() });
+configure({adapter: new Adapter()});
 
 describe('InputFormat Component', () => {
     const mockOnPress = jest.fn();

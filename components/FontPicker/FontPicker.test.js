@@ -1,15 +1,16 @@
 //CustomColorPicker.test.js
 import React from 'react';
 import {render} from '@testing-library/react-native';
-import { FontPicker } from "./FontPicker";
+import {FontPicker} from "./FontPicker";
 import {configure, mount} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
-configure({ adapter: new Adapter() });
+configure({adapter: new Adapter()});
 
 describe('FontPicker Component', () => {
     const mockOnPress = jest.fn();
-    const component = <FontPicker onChange={mockOnPress} text={'testing component'} items={['test', 'test2']} value={'normal'}/>
+    const component = <FontPicker onChange={mockOnPress} text={'testing component'} items={['test', 'test2']}
+                                  value={'normal'}/>
     let wrapper;
     beforeEach(() => {
         wrapper = mount(component);

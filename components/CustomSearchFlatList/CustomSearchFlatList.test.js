@@ -1,15 +1,15 @@
 //CustomColorPicker.test.js
 import React from 'react';
 import {render} from '@testing-library/react-native';
-import { CustomSearchFlatList } from "./CustomSearchFlatList";
+import {CustomSearchFlatList} from "./CustomSearchFlatList";
 import {configure, mount} from 'enzyme';
 import Adapter from 'enzyme-adapter-react-16';
 
-configure({ adapter: new Adapter() });
+configure({adapter: new Adapter()});
 
 describe('CustomSearchFlatList Component', async () => {
     const mockOnPress = jest.fn();
-    const component = <CustomSearchFlatList onChange={mockOnPress} text={'testing component'} />
+    const component = <CustomSearchFlatList onChange={mockOnPress} text={'testing component'}/>
     let wrapper;
     beforeEach(() => {
         wrapper = mount(component);
