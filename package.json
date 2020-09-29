@@ -34,7 +34,7 @@
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
     "enzyme-react-16-adapter-setup": "0.1.0",
-    "eslint": "7.5.0",
+    "eslint": "7.10.0",
     "eslint-config-google": "0.14.0",
     "eslint-plugin-react": "7.21.2",
     "eslint-plugin-react-native": "3.8.1",
