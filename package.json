@@ -17,7 +17,7 @@
     ]
   },
   "dependencies": {
-    "expo": "39.0.3",
+    "expo": "51.0.38",
     "expo-status-bar": "1.0.2",
     "moment": "2.29.0",
     "react": "16.11.0",
@@ -30,7 +30,7 @@
     "@babel/core": "7.11.0",
     "@testing-library/react-native": "7.0.2",
     "babel-eslint": "10.1.0",
-    "babel-preset-expo": "8.1.1",
+    "babel-preset-expo": "11.0.15",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
     "enzyme-react-16-adapter-setup": "0.1.0",
