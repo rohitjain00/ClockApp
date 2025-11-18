@@ -37,7 +37,7 @@
     "eslint": "7.10.0",
     "eslint-config-google": "0.14.0",
     "eslint-plugin-react": "7.21.2",
-    "eslint-plugin-react-native": "3.8.1",
+    "eslint-plugin-react-native": "3.11.0",
     "jest": "26.2.2",
     "jest-enzyme": "7.1.2",
     "react-test-renderer": "16.13.1"
