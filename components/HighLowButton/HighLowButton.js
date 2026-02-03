@@ -16,7 +16,7 @@ export function HighLowButton(props) {
             <Text>{props.text}</Text>
             <View style={styles.buttonContainer}>
                 <Button
-                    title='&uarr;'
+                    title='↑'
                     style={styles.button}
                     onPress={() => {
                         increase();
@@ -24,7 +24,7 @@ export function HighLowButton(props) {
             </View>
             <View style={styles.buttonContainer}>
                 <Button
-                    title='&darr;'
+                    title='↓'
                     style={styles.button} onPress={() => {
                     decrease();
                 }}/>

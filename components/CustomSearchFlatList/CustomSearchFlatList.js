@@ -13,7 +13,7 @@ export function CustomSearchFlatList(props) {
     const searchData = (text) => {
         const newData = timeZones.filter((item) => {
             const itemData = item.value.toUpperCase();
-            const textData = searchText.toUpperCase();
+            const textData = text.toUpperCase();
             return itemData.indexOf(textData) > -1;
         });
         setData(newData);

@@ -129,9 +129,9 @@ const styles = StyleSheet.create({
         marginTop: 100,
     },
     flexRowStyle: {
+        alignContent: 'space-around',
         flex: 1,
         flexDirection: 'row-reverse',
-        alignContent: 'space-around',
         justifyContent: 'space-around',
         marginTop: 40,
     },

@@ -1,39 +1,31 @@
-//CustomColorPicker.test.js
 import React from 'react';
-import {render} from '@testing-library/react-native';
+import {render, screen, fireEvent} from '@testing-library/react-native';
 import {InputFormat} from "./InputFormat";
-import {configure, mount} from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
-
-configure({adapter: new Adapter()});
 
 describe('InputFormat Component', () => {
     const mockOnPress = jest.fn();
-    const component = <InputFormat onChange={mockOnPress} text={'testing component'} value={'HH:MM"YYYY'}/>
-    let wrapper;
-    beforeEach(() => {
-        wrapper = mount(component);
-        jest.clearAllMocks();
-    })
-    it('Input Format Props Validation', async () => {
-        const componentProps = wrapper.props();
-        expect(componentProps.onChange).toEqual(mockOnPress);
-        expect(componentProps.text).toEqual('testing component');
-        expect(componentProps.value).toEqual('HH:MM"YYYY');
+    const props = {
+        onChange: mockOnPress,
+        text: 'testing component',
+        value: 'HH:MM"YYYY'
+    };
+
+    it('renders correctly', () => {
+        render(<InputFormat {...props} />);
+        expect(screen.getByText('testing component')).toBeTruthy();
+        expect(screen.getByDisplayValue('HH:MM"YYYY')).toBeTruthy();
     });
-    it('Input Format Snapshot Validation', async () => {
-        const tree = render(component).toJSON();
-        expect(tree).toMatchSnapshot();
+
+    it('Input Format Snapshot Validation', () => {
+        const {toJSON} = render(<InputFormat {...props} />);
+        expect(toJSON()).toMatchSnapshot();
     });
-    it('Input Format Action Validation', async () => {
-        // https://github.com/enzymejs/enzyme/issues/2263#issuecomment-568585047
-        // According to above statement We cannot interact with state inside a function with useState.
-    });
-    it('Input Format onChange handler', async () => {
-        wrapper.props().onChange('hh:mm:yyyy');
-        expect(mockOnPress).toHaveBeenCalled();
-        expect(mockOnPress).toHaveBeenCalledTimes(1);
-        wrapper.props().onChange('hh:ss');
-        expect(mockOnPress).toHaveBeenCalledTimes(2);
+
+    it('calls onChange when text changes', () => {
+        render(<InputFormat {...props} />);
+        const input = screen.getByDisplayValue('HH:MM"YYYY');
+
+        fireEvent.changeText(input, 'hh:mm:yyyy');
+        expect(mockOnPress).toHaveBeenCalledWith('hh:mm:yyyy');
     });
 });

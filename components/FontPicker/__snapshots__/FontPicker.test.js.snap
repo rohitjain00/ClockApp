@@ -3,7 +3,7 @@
 exports[`FontPicker Component Font Picker Snapshot Validation 1`] = `
 <View
   style={
-    Object {
+    {
       "marginTop": 20,
       "textAlign": "center",
     }
@@ -13,31 +13,35 @@ exports[`FontPicker Component Font Picker Snapshot Validation 1`] = `
     testing component
   </Text>
   <View>
-    <RCTPicker
+    <RNCPicker
       items={
-        Array [
-          Object {
+        [
+          {
             "label": "test",
+            "testID": undefined,
             "textColor": undefined,
             "value": "test",
           },
-          Object {
+          {
             "label": "test2",
+            "testID": undefined,
             "textColor": undefined,
             "value": "test2",
           },
         ]
       }
+      numberOfLines={1}
       onChange={[Function]}
       selectedIndex={0}
       style={
-        Array [
-          Object {
+        [
+          {
             "height": 216,
           },
           undefined,
         ]
       }
+      testID="font-picker"
     />
   </View>
 </View>

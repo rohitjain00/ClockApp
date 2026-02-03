@@ -3,7 +3,7 @@
 exports[`ClockDisplay Component Clock Display Snapshot Validation 1`] = `
 <View
   style={
-    Object {
+    {
       "alignItems": "center",
       "justifyContent": "center",
     }
@@ -11,18 +11,18 @@ exports[`ClockDisplay Component Clock Display Snapshot Validation 1`] = `
 >
   <Text
     style={
-      Object {
+      {
         "color": "#000000",
         "fontFamily": "normal",
         "fontSize": 20,
       }
     }
   >
-    04:40:10 AM
+    10:10:10 AM
   </Text>
   <Text
     style={
-      Object {
+      {
         "color": "#000000",
         "fontFamily": "normal",
         "fontSize": 20,

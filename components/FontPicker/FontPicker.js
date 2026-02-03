@@ -1,5 +1,6 @@
 import React from 'react';
-import {Picker, StyleSheet, Text, View} from 'react-native';
+import {StyleSheet, Text, View} from 'react-native';
+import {Picker} from '@react-native-picker/picker';
 import PropTypes from 'prop-types';
 
 export function FontPicker(props) {
@@ -17,6 +18,7 @@ export function FontPicker(props) {
         <View style={styles.container}>
             <Text>{props.text}</Text>
             <Picker
+                testID="font-picker"
                 selectedValue={props.value}
                 onValueChange={(value) => {
                     changeValue(value);
