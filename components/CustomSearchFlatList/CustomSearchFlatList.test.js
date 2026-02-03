@@ -1,38 +1,43 @@
-//CustomColorPicker.test.js
 import React from 'react';
-import {render} from '@testing-library/react-native';
+import {render, screen, fireEvent} from '@testing-library/react-native';
 import {CustomSearchFlatList} from "./CustomSearchFlatList";
-import {configure, mount} from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import {Alert} from 'react-native';
 
-configure({adapter: new Adapter()});
+jest.spyOn(Alert, 'alert');
 
-describe('CustomSearchFlatList Component', async () => {
+describe('CustomSearchFlatList Component', () => {
     const mockOnPress = jest.fn();
-    const component = <CustomSearchFlatList onChange={mockOnPress} text={'testing component'}/>
-    let wrapper;
-    beforeEach(() => {
-        wrapper = mount(component);
-        jest.clearAllMocks();
-    })
-    it('Custom Search Flat List Props Validation', async () => {
-        const componentProps = wrapper.props();
-        expect(componentProps.onChange).toEqual(mockOnPress);
-        expect(componentProps.text).toEqual('testing component');
+    const props = {
+        onChange: mockOnPress,
+        text: 'Select TimeZone'
+    };
+
+    it('renders correctly', () => {
+        render(<CustomSearchFlatList {...props} />);
+        expect(screen.getByText('Select TimeZone')).toBeTruthy();
     });
-    it('Custom Search Flat List Snapshot Validation', async () => {
-        const tree = render(component).toJSON();
-        expect(tree).toMatchSnapshot();
+
+    it('Custom Search Flat List Snapshot Validation', () => {
+        const {toJSON} = render(<CustomSearchFlatList {...props} />);
+        expect(toJSON()).toMatchSnapshot();
     });
-    it('Custom Search Flat List Action Validation', async () => {
-        // https://github.com/enzymejs/enzyme/issues/2263#issuecomment-568585047
-        // According to above statement We cannot interact with state inside a function with useState.
-    });
-    it('Custom Search Flat List Return', async () => {
-        wrapper.props().onChange(10);
+
+    it('opens modal and selects timezone', () => {
+        render(<CustomSearchFlatList {...props} />);
+
+        // Open modal
+        fireEvent.press(screen.getByText('Select TimeZone'));
+
+        // Search for "GMT"
+        const input = screen.getByPlaceholderText('Search Here');
+        fireEvent.changeText(input, 'GMT');
+
+        // Should find item with GMT.
+        const items = screen.getAllByText('GMT Standard Time');
+
+        fireEvent.press(items[0]);
+
+        expect(Alert.alert).toHaveBeenCalledWith('Selected TimeZone : GMT Standard Time');
         expect(mockOnPress).toHaveBeenCalled();
-        expect(mockOnPress).toHaveBeenCalledTimes(1);
-        wrapper.props().onChange(12);
-        expect(mockOnPress).toHaveBeenCalledTimes(2);
     });
 });

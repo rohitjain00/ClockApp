@@ -1,42 +1,53 @@
-//CustomColorPicker.test.js
 import React from 'react';
-import {render} from '@testing-library/react-native';
+import {render, screen, fireEvent} from '@testing-library/react-native';
 import {CustomColorPicker} from "./CustomColorPicker";
-import {configure, mount} from 'enzyme';
-import Adapter from 'enzyme-adapter-react-16';
+import {Alert} from 'react-native';
 
-configure({adapter: new Adapter()});
+jest.spyOn(Alert, 'alert');
+
+jest.mock('react-native-color-picker', () => {
+    const {View, Button} = require('react-native');
+    return {
+        // eslint-disable-next-line react/prop-types
+        ColorPicker: ({onColorSelected}) => (
+            <View testID="mock-color-picker">
+                <Button title="Select Red" onPress={() => onColorSelected('red')} />
+            </View>
+        )
+    };
+});
 
 describe('CustomColorPicker Component', () => {
     const mockOnPress = jest.fn();
-    const component = <CustomColorPicker value={'#000000'} onChange={mockOnPress} text={'testing component'}/>
-    let wrapper;
-    beforeEach(() => {
-        wrapper = mount(component);
-        jest.clearAllMocks();
-    })
-    it('Custom Color Picker Props Validation', async () => {
-        const componentProps = wrapper.props();
-        expect(componentProps.value).toEqual('#000000');
-        expect(componentProps.onChange).toEqual(mockOnPress);
-        expect(componentProps.text).toEqual('testing component');
+    const props = {
+        value: '#000000',
+        onChange: mockOnPress,
+        text: 'testing component'
+    };
+
+    it('renders correctly', () => {
+        render(<CustomColorPicker {...props} />);
+        expect(screen.getByText('testing component')).toBeTruthy();
     });
+
     it('Custom Color Picker Snapshot Validation', () => {
-        const tree = render(component).toJSON();
-        expect(tree).toMatchSnapshot();
+        const {toJSON} = render(<CustomColorPicker {...props} />);
+        expect(toJSON()).toMatchSnapshot();
     });
-    it('Custom Color Picker Action Validation', async () => {
-        // console.log(wrapper.instance());
-        // console.log(wrapper.childAt(1));
-        // console.log(wrapper.state(['modalVisible']));
-        // wrapper.childAt(1).onPressHandler();
-        // expect(wrapper.state(['modalVisible'])).toEqual(true);
-        // https://github.com/enzymejs/enzyme/issues/2263#issuecomment-568585047
-        // According to above statement We cannot interact with state inside a hooks.
-    });
-    it('Custom Color Picker onChange Checker', async () => {
-        wrapper.props().onChange('#eeeeee');
-        expect(mockOnPress).toHaveBeenCalled();
-        expect(mockOnPress).toHaveBeenCalledTimes(1);
+
+    it('opens modal and selects color', () => {
+        render(<CustomColorPicker {...props} />);
+
+        // Open modal
+        fireEvent.press(screen.getByText('testing component'));
+
+        // Check if mock color picker is visible
+        expect(screen.getByTestId('mock-color-picker')).toBeTruthy();
+
+        // Select color
+        fireEvent.press(screen.getByText('Select Red'));
+
+        expect(Alert.alert).toHaveBeenCalledWith('Color selected: red');
+        expect(mockOnPress).toHaveBeenCalledWith('red');
     });
 });

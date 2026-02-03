@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
-import {Button, Modal, StyleSheet, View} from 'react-native';
+import {Alert, Button, Modal, StyleSheet, View} from 'react-native';
 import {ColorPicker} from 'react-native-color-picker';
+import Slider from '@react-native-community/slider';
 import PropTypes from 'prop-types';
 
 export function CustomColorPicker(props) {
@@ -17,8 +18,9 @@ export function CustomColorPicker(props) {
                 }}
             >
                 <ColorPicker
+                    sliderComponent={Slider}
                     onColorSelected={(color) => {
-                        alert(`Color selected: ${color}`);
+                        Alert.alert(`Color selected: ${color}`);
                         props.onChange(color);
                         setModalVisible(false);
                     }}

@@ -3,7 +3,7 @@
 exports[`InputFormat Component Input Format Snapshot Validation 1`] = `
 <View
   style={
-    Object {
+    {
       "marginTop": 20,
     }
   }
@@ -14,11 +14,8 @@ exports[`InputFormat Component Input Format Snapshot Validation 1`] = `
     testing component
   </Text>
   <TextInput
-    allowFontScaling={true}
-    defaultValue="HH:MM\\"YYYY"
+    defaultValue="HH:MM"YYYY"
     onChangeText={[Function]}
-    rejectResponderTermination={true}
-    underlineColorAndroid="transparent"
   />
 </View>
 `;

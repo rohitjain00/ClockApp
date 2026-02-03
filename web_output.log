@@ -1,0 +1,15 @@
+
+> web
+> expo start --web
+
+Starting project at /app
+Starting Metro Bundler
+The following packages should be updated for best compatibility with the installed expo version:
+  @react-native-community/slider@5.1.2 - expected version: 4.5.5
+  @react-native-picker/picker@2.11.4 - expected version: 2.9.0
+  react-native@0.76.5 - expected version: 0.76.9
+Your project may not work correctly until you install the expected versions of the packages.
+Waiting on http://localhost:8081
+Logs for your project will appear below.
+Web Bundled 6149ms node_modules/expo/AppEntry.js (318 modules)
+Web Bundled 29ms node_modules/expo/AppEntry.js (1 module)
