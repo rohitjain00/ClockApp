@@ -20,7 +20,7 @@
     "react-dom": "18.3.1",
     "react-native": "0.76.5",
     "react-native-color-picker": "^0.6.0",
-    "react-native-web": "~0.19.13"
+    "react-native-web": "~0.21.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.0",
