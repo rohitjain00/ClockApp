@@ -11,7 +11,7 @@
   },
   "dependencies": {
     "@expo/metro-runtime": "~57.0.12",
-    "@react-native-community/slider": "5.2.0",
+    "@react-native-community/slider": "5.2.1",
     "@react-native-picker/picker": "2.11.4",
     "expo": "57",
     "expo-status-bar": "~57.0.1",
