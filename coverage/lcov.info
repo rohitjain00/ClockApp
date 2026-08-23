@@ -1,5 +1,5 @@
 TN:
-SF:components/ClockDisplay/ClockDisplay.js
+SF:components\ClockDisplay\ClockDisplay.js
 FN:6,ClockDisplay
 FN:7,dateStyle
 FN:15,timeStyle
@@ -19,7 +19,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components/CustomColorPicker/CustomColorPicker.js
+SF:components\CustomColorPicker\CustomColorPicker.js
 FN:7,CustomColorPicker
 FN:16,(anonymous_1)
 FN:22,(anonymous_2)
@@ -48,7 +48,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components/CustomSearchFlatList/CustomSearchFlatList.js
+SF:components\CustomSearchFlatList\CustomSearchFlatList.js
 FN:5,CustomSearchFlatList
 FN:13,(anonymous_1)
 FN:14,(anonymous_2)
@@ -70,7 +70,7 @@ FNDA:1,(anonymous_3)
 FNDA:11,(anonymous_4)
 FNDA:0,(anonymous_5)
 FNDA:1,(anonymous_6)
-FNDA:16,(anonymous_7)
+FNDA:17,(anonymous_7)
 FNDA:12,(anonymous_8)
 FNDA:1,(anonymous_9)
 FNDA:0,(anonymous_10)
@@ -94,7 +94,7 @@ DA:28,11
 DA:35,6
 DA:42,0
 DA:46,1
-DA:53,16
+DA:53,17
 DA:56,12
 DA:58,1
 DA:59,1
@@ -110,7 +110,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components/FontPicker/FontPicker.js
+SF:components\FontPicker\FontPicker.js
 FN:6,FontPicker
 FN:7,changeValue
 FN:11,pickerList
@@ -136,7 +136,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components/HighLowButton/HighLowButton.js
+SF:components\HighLowButton\HighLowButton.js
 FN:5,HighLowButton
 FN:6,increase
 FN:10,decrease
@@ -162,7 +162,7 @@ BRF:0
 BRH:0
 end_of_record
 TN:
-SF:components/InputFormat/InputFormat.js
+SF:components\InputFormat\InputFormat.js
 FN:5,InputFormat
 FN:6,changeText
 FN:13,(anonymous_2)
